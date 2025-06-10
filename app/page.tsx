@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Section from "@/components/section";
@@ -11,7 +9,6 @@ export default function Home() {
       <Hero />
       <Section />
 
-      {/* Footer */}
       <footer className="py-4 text-center bg-[#030B1F]">
         <img src="/Logo.png" className="h-16 w-36 object-contain mx-auto" />
       </footer>
