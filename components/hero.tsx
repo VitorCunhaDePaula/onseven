@@ -20,7 +20,7 @@ function Hero() {
               CRM de Cobrança Global
             </h1>
             <img
-              className="p-0 m-0"
+              className="p-0 m-0 mx-auto"
               src={
                 "https://d335luupugsy2.cloudfront.net/cms/files/84734/1742308565/$rmbuuyu5q9p"
               }
@@ -115,7 +115,7 @@ function Hero() {
               <Input id="phone" className="bg-gray-800 border-gray-700" />
             </div>
 
-            <Button className="w-full bg-blue-500 hover:bg-blue-600">
+            <Button className="w-full bg-[#80B4F7] hover:bg-[#5F86B8] cursor-pointer">
               AGENDE UMA DEMONSTRAÇÃO
             </Button>
           </form>
